@@ -1,17 +1,32 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+$( document ).ready(function() 
+{
+//    var _controller = "../../app/control/main-control.php";
+//    var _getAjax = "?ajax=";
+//    
+//    $.ajax({
+//        url: _controller + _getAjax,    
+//        beforeSend: function(xhr)
+//        {
+//            _log.log( '$.ajax.beforeSend: ' + _controller + _getAjax ); 
+//        }, 
+//        success: function(result,status,xhr)
+//        {
+//            $(".Div-MainContent").html(result);
+//        }, 
+//        error: function(result,status,xhr) 
+//        {
+//           _logErr.log( '$.ajax.error: ' + _controller + _getAjax ); 
+//        }, 
+//        complete: function(result,status,xhr)
+//        {
+//            console.log( result );
+//           $(".modal-a").colorbox( {inline:true, width:"50%"} );
+//        }
+//    });
 
-$( document ).ready(function() {
-    _log.log('jQuery document is ready');
-    
-    // colorbox
-    $(".btn_Proj3").colorbox({inline:true, width:"50%"});
-//        $(".btn_About").colorbox({inline:true, innerWidth:"335px", innerHeight:"210px"}); 
+//    _log.log('jQuery document is ready');
 });
-
+ 
 
 
 
